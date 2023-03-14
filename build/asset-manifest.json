@@ -1,0 +1,25 @@
+{
+  "files": {
+    "main.css": "/ShopPhone/static/css/main.9819a7af.css",
+    "main.js": "/ShopPhone/static/js/main.2cc918b9.js",
+    "static/js/303.53bbeb03.chunk.js": "/ShopPhone/static/js/303.53bbeb03.chunk.js",
+    "static/css/511.2ae7987d.chunk.css": "/ShopPhone/static/css/511.2ae7987d.chunk.css",
+    "static/js/511.10922547.chunk.js": "/ShopPhone/static/js/511.10922547.chunk.js",
+    "static/js/949.40a42926.chunk.js": "/ShopPhone/static/js/949.40a42926.chunk.js",
+    "static/media/instagram.png": "/ShopPhone/static/media/instagram.e719d8b29f452a16302d.png",
+    "static/media/telegram.png": "/ShopPhone/static/media/telegram.e9722f26cc228e817986.png",
+    "static/media/twitter (1).png": "/ShopPhone/static/media/twitter (1).894988327f8d68209e91.png",
+    "static/media/share1.png": "/ShopPhone/static/media/share1.4ce1179c5a22bc38b677.png",
+    "index.html": "/ShopPhone/index.html",
+    "main.9819a7af.css.map": "/ShopPhone/static/css/main.9819a7af.css.map",
+    "main.2cc918b9.js.map": "/ShopPhone/static/js/main.2cc918b9.js.map",
+    "303.53bbeb03.chunk.js.map": "/ShopPhone/static/js/303.53bbeb03.chunk.js.map",
+    "511.2ae7987d.chunk.css.map": "/ShopPhone/static/css/511.2ae7987d.chunk.css.map",
+    "511.10922547.chunk.js.map": "/ShopPhone/static/js/511.10922547.chunk.js.map",
+    "949.40a42926.chunk.js.map": "/ShopPhone/static/js/949.40a42926.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.9819a7af.css",
+    "static/js/main.2cc918b9.js"
+  ]
+}

@@ -1,0 +1,16 @@
+.root {
+    background-color: rgb(249, 249, 249);
+    padding: 20px 10px 20px 60px;
+  &__title {
+    display: flex;
+    h2 {
+      margin-right: 20px;
+    }
+  }
+
+}
+.active{
+    border-bottom: 3px solid #ff5c00;
+    font-weight: bold;
+}
+

@@ -1,0 +1,110 @@
+a:hover {
+  color: #fff;
+}
+.root {
+  display: flex;
+  justify-content: space-around;
+  background-color: #191919;
+  width: 100%;
+  height: 300px;
+
+  li {
+    margin: 50px 30px 20px 0px;
+    ul {
+      .title{
+        font-size: 18px;
+        color: #fff;
+        white-space:nowrap;
+      }
+      .title:hover{
+        color: rgb(141, 141, 141);
+      }
+      .text{
+        color: #999;
+      }
+      .text:hover{
+        color: rgb(255, 255, 255);
+      }
+      a {
+        a:hover {
+          color: #fff;
+        }
+        img {
+          width: 20px;
+          padding: 0px;
+        }
+      }
+    }
+  }
+
+  .network {
+    margin: 50px 30px 20px 0px;
+    span {
+      font-size: 18px;
+      color: #fff;
+      white-space:nowrap;
+    }
+    li{
+      margin: 0px;
+    }
+
+    &__sending {
+      position: relative;
+      div {
+        display: flex;
+      }
+
+      &__input {
+        padding: 10px;
+        max-width: 270px;
+        height: 40px;
+        margin-top: 20px;
+        background-color: #191919;
+        color: #fff;
+        border-radius: 10px;
+        padding-right: 30px;
+        border: solid #fff 1px;
+      }
+      &__click{
+        width: 20px;
+        height: 20px;
+        cursor: pointer;
+        position: absolute;
+        left:189px;
+        top:56px
+      }
+    }
+
+    &__link {
+      display: flex;
+      margin: 0px;   
+      ul {
+        padding: 0px 12px 0px 0px;
+        img {
+          width: 20px;
+          padding: 0px;
+        }
+      }
+    }
+  }
+
+  @media (max-width: 1000px) {
+    li {
+      display: none;
+    }
+    .network {
+      li {
+        display: flex;
+        justify-content: left;
+        margin: 15px 20px 10px 0px;
+      }
+      img {
+        margin-right: 10px;
+      }
+    }
+  }
+}
+
+.textError{
+  color: #fff;
+}

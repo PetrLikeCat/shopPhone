@@ -1,0 +1,77 @@
+.root {
+    background-color: rgb(247, 247, 247);
+
+  &__title {
+    padding: 20px 10px 20px 60px;
+    display: flex;
+    h2 {
+      margin-right: 20px;
+    }
+  }
+
+  &__btn button {
+    width: 316px;
+    height: 60px;
+    margin: 20px 0px 10px;
+    background: #ff5c00;
+    color: #fff;
+    list-style: none;
+    font-feature-settings: "tnum", "tnum";
+    box-sizing: border-box;
+    text-transform: none;
+    cursor: pointer;
+    text-align: center;
+    border: none;
+    padding: 0 20px;
+    border-radius: 4px;
+  }
+
+  &__additionally {
+    width: 316px;
+    font-size: 17px;
+    font-weight: 400;
+    color: #aaa;
+    line-height: 40px;
+    text-align: center;
+
+    &__vk {
+      margin-right: 15px;
+    }
+  }
+}
+.inputs {
+  display:block;
+  position: relative;
+  margin: 0px;
+  padding: 0px;
+    height: 80px;
+
+  &__label {
+    top: 22px;
+    left: 20px;
+    font-size: 11px;
+    opacity: 1;
+    margin-top: 30px;
+    position: absolute;
+    left:10px;
+    top: -8px;
+    pointer-events: none;
+  }
+
+  &__Text {
+    font-size: 18px;
+    width: 314px;
+    height: 55px;
+    color: #000;
+    background-color: rgb(235, 235, 235);
+    margin: 20px 0px 0px 0px;
+    padding: 0px 0px 0px 15px;
+    position: relative;
+    border:none;
+    opacity: 0.7;
+  }:focus{
+    opacity: 1;
+    border: 1px solid #ff5c00;
+  }
+}
+

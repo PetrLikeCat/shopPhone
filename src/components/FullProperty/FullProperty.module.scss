@@ -1,0 +1,159 @@
+div {
+  margin-bottom: 0px;
+}
+p {
+  margin: 0px;
+  padding: 0px;
+  overflow: hidden;
+}
+
+.product {
+
+  height: 700px;
+
+  &__Excerpt {
+    display: block;
+    background-color: pink;
+  }
+
+  &Memeres {
+    display: flex;
+    cursor: pointer;
+    padding: 0px 10px 5px 0px;
+    grid-area: Memeres;
+  }
+  &Photo {
+    width: 400px;
+    max-height: 500px;
+    grid-area: imgFull;
+  }
+  &Specifications {
+    width: 900px;
+    height: 100%;
+    padding-top: 30px;
+    padding-left: 30px;
+    li {
+      margin: 4px 5px 4px 0px;
+      padding: 4px 4px 4px 0px;
+    }
+  }
+  &Property {
+    margin: 0px;
+  }
+  &Property div {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 0px;
+    margin-left: 0px;
+    p {
+      font-size: 20px;
+    }
+    .productPropertyText {
+      max-width: 300px;
+    }
+    .productPropertyParameter ul {
+      padding-left: 0px;
+      margin-left: 0px;
+      width: 300px;
+      ul {
+        overflow: hidden;
+      }
+    }
+  }
+  &PropertyList {
+    display: flex;
+    justify-content: space-between;
+    max-width: 600px;
+    margin-bottom: 0px;
+    &ul {
+      margin-bottom: 0px;
+    }
+  }
+  &PropertyParameter:after {
+    ul {
+      display: grid-row;
+    }
+  }
+  @media (max-width: 1000px) {
+    display: block;
+  }
+}
+
+.navigateBtn {
+  display: flex;
+  justify-content: space-around;
+}
+.navigateBtnBack {
+  display: inline-block;
+  border-radius: 30px;
+  padding: 10px 20px;
+  min-width: 100px;
+  text-align: center;
+  cursor: pointer;
+  border: 1px solid transparent;
+  &:hover {
+    background-color: #c03;
+  }
+}
+.color {
+  display: flex;
+  justify-content: left;
+  grid-area: colors;
+  ul {
+    margin-left: 40px;
+  }
+  &Black {
+    margin: 10px 5px 20px 5px;
+    width: 25px;
+    height: 25px;
+    border-radius: 30px;
+    background-color: black;
+  }
+  &While {
+    margin: 10px 5px 20px 5px;
+    width: 25px;
+    height: 25px;
+    border-radius: 30px;
+    background-color: rgb(199, 199, 199);
+  }
+  &Coral {
+    margin: 10px 5px 20px 5px;
+    width: 25px;
+    height: 25px;
+    border-radius: 30px;
+    background-color: Coral;
+  }
+  .active {
+    border: 5px solid #c03(255, 0, 43);
+    // border: 2px solid black;
+  }
+}
+
+.active {
+  background-color: rgb(191, 191, 191);
+  border-radius: 5px;
+}
+@media (max-width: 1000px) {
+  .product {
+    &Specifications {
+      display: grid;
+      grid-template-columns: repeat(2, 1fr);
+      grid-template-rows: repeat(7, 1fr);
+      grid-column-gap: 10px;
+      grid-row-gap: 10px;
+    }
+  }
+}
+.productSpecifications {
+  display: none;
+  // grid-template-columns: repeat(200px 400px);
+  // grid-template-rows: repeat(4, 1fr);
+  // grid-column-gap: 0px;
+  // grid-row-gap: 0px;
+  // grid-template-areas:
+  // "imgFull title"
+  // "imgFull price"
+  // "imgFull colorProperty"
+  // "imgFull colors"
+  // "imgFull Memeres"
+}
